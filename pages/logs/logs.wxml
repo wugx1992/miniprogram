@@ -1,0 +1,13 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <block>
+    <w-button class="my-button" type="info" bind:onClick="buttonClick">这是一个按钮</w-button>
+    <w-toast id="wuss-toast" />
+    <w-alert id="wuss-alert" />
+  </block>
+
+  <block wx:for="{{logs}}" wx:for-item="log" wx:key="key">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block>
+
+</view>

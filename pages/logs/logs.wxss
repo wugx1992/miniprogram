@@ -1,0 +1,11 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.my-button button {
+  padding: 0rpx 10rpx!important;
+}

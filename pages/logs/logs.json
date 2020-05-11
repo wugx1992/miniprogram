@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "查看启动日志",
+  "usingComponents": {
+    "w-button": "wuss-weapp/w-button/index",
+    "w-toast": "wuss-weapp/w-toast/index",
+    "w-alert": "wuss-weapp/w-alert/index"
+  }
+}
