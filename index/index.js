@@ -58,7 +58,7 @@ Component({
       console.log("当前页面路径"+pages[pages.length-1].route);
       // 页面跳转
       wx.switchTab({ 
-        url: "/pages/index/index"
+        url: "/pages/home/home"
        });
 
 
